@@ -10,7 +10,7 @@ const JobCard = ({
   email,
 }) => {
   return (
-    <div className="border rounded-lg p-6 w-full shadow-lg bg-white max-w-md">
+    <div className="border rounded-lg p-6 w-full shadow-lg bg-white max-w-md transition-transform duration-300 hover:scale-105">
       <h2 className="text-xl font-bold text-gray-800">{title}</h2>
       <p className="text-gray-600">{location}</p>
 

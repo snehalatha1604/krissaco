@@ -21,7 +21,7 @@ const Navbar = () => {
         {/*Small Screen Navbar Items */}
         <div className="lg:hidden block">
           {MenuToggle ? (
-            <div className="scale-up-hor-right fixed top-0 right-0 h-fit bg-white shadow-lg">
+            <div className="scale-up-hor-right z-20 fixed top-0 right-0 h-fit bg-white shadow-lg">
               <div className="flex items-center justify-between px-4 md:py-5 py-4 border-b">
                 <span className="text-lg font-bold">Menu</span>
                 <IoMdClose

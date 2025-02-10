@@ -72,10 +72,10 @@ const Navbar = () => {
         </div>
         {/* Navbar Items */}
         <div className="space-x-8 lg:flex hidden items-center">
-          {/* Premium */}
+          {/* Products */}
           <div>
             <Link
-              to="/"
+              to="/products"
               className="text-gray-600 hover:text-black text-base flex items-center"
             >
               <FaBox color="green" />
@@ -85,7 +85,7 @@ const Navbar = () => {
           {/* Services */}
           <div>
             <Link
-              to="/"
+              to="/services"
               className="text-gray-600 hover:text-black text-base flex items-center"
             >
               <IoCloud color="green" size={20} />
@@ -95,7 +95,7 @@ const Navbar = () => {
           {/* Careers */}
           <div>
             <Link
-              to="/"
+              to="/careers"
               className="text-gray-600 hover:text-black text-base flex items-center"
             >
               <FaPeopleGroup color="green" size={22} />

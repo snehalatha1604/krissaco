@@ -1,11 +1,10 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 const Products = () => {
   return (
     <div>
-      <div className="flex items-center">
-        <img src={logo} alt="CoachOn Logo" className="md:h-10 h-8" />
-      </div>
+      <Navbar />
       <div className="w-full h-screen   items-start justify-start p-6">
         <div className=" p-6">
           <div>
@@ -86,6 +85,7 @@ const Products = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

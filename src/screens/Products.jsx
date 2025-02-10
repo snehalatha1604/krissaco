@@ -51,7 +51,7 @@ const Products = () => {
                 <img
                   src="img/perfectBlend.png"
                   alt="Urban Brews Coffee"
-                  className="w-full max-w-xl rounded-lg shadow-lg"
+                  className="w-full max-w-xl rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                 />
                 <p className="mt-1 text-xl font-semibold">
                   Perfect Blend of Tradition and Innovation
@@ -63,7 +63,7 @@ const Products = () => {
                 <img
                   src="img/slide4.png"
                   alt="Urban Brews Coffee"
-                  className="w-full max-w-xl rounded-lg shadow-lg"
+                  className="w-full max-w-xl rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                 />
                 <p className="mt-1 text-xl font-semibold">
                   Crafted for Coffee Lovers
@@ -75,7 +75,7 @@ const Products = () => {
                 <img
                   src="img/sip.jpg"
                   alt="Urban Brews Coffee"
-                  className="w-full max-w-5xl rounded-lg shadow-lg"
+                  className="w-full max-w-5xl rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                 />
                 <p className="mt-1 text-xl font-semibold">
                   Health and Well-being in Every Sip

@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const Careers = () => {
   const jobs = [
     {
-      title: "Sales & Marketing Executive",
+      title: "Sales & Marketing Executive ",
       location: "Bengaluru",
       education: "B.Sc in Agriculture/Horticulture or B.Tech in Agri Engg",
       experience: "0-2 years",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/krissaco/static/css/main.1ab94ccf.css",
-    "main.js": "/krissaco/static/js/main.22e9f676.js",
+    "main.js": "/krissaco/static/js/main.d7eb20cd.js",
     "static/media/logo.png": "/krissaco/static/media/logo.90a9a09843f4b0edaac1.png",
     "index.html": "/krissaco/index.html",
     "main.1ab94ccf.css.map": "/krissaco/static/css/main.1ab94ccf.css.map",
-    "main.22e9f676.js.map": "/krissaco/static/js/main.22e9f676.js.map"
+    "main.d7eb20cd.js.map": "/krissaco/static/js/main.d7eb20cd.js.map"
   },
   "entrypoints": [
     "static/css/main.1ab94ccf.css",
-    "static/js/main.22e9f676.js"
+    "static/js/main.d7eb20cd.js"
   ]
 }

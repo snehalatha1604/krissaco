@@ -6,7 +6,7 @@ const Products = () => {
     <div>
       <Navbar />
       <div className="w-full items-center justify-start flex flex-col p-6 md:p-14">
-        <img src="/logo192.png" alt="" className="w-44 h-20 object-cover" />
+        <img src="logo192.png" alt="" className="w-44 h-20 object-cover" />
 
         <h1 className="text-2xl font-bold text-left w-full my-4">
           Urban Brews

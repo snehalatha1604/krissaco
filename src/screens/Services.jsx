@@ -8,7 +8,7 @@ const Services = () => {
       <Navbar />
 
       <img
-        src="/img/slide1.png"
+        src="img/slide1.png"
         alt=""
         className="flex w-full max-h-[75vh] object-cover"
       />

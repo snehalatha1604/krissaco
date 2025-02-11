@@ -8,7 +8,7 @@ const Products = () => {
       <div className="w-full h-screen   items-start justify-start p-6">
         <div className=" p-6">
           <div>
-            <h1 className="text-4xl font-serif text-left mb-4">
+            <h1 className="text-4xl font-serif text-left mb-6">
               <span className="text-black">kriss</span>
               <span className="text-green-600">a</span>
               <span className="text-black">co</span> COFFEE

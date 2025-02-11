@@ -5,48 +5,43 @@ const Products = () => {
   return (
     <div>
       <Navbar />
-      <div className="w-full h-screen   items-start justify-start p-6">
-        <div className=" p-6">
-          <div>
-            <h1 className="text-4xl font-serif text-left mb-6">
-              <span className="text-black">kriss</span>
-              <span className="text-green-600">a</span>
-              <span className="text-black">co</span> COFFEE
-            </h1>
-          </div>
-          <className>Urban Brews</className>
+      <div className="w-full items-center justify-start flex flex-col p-6 md:p-14">
+        <img src="/logo192.png" alt="" className="w-44 h-20 object-cover" />
 
-          <p className="text-gray-700 text-lg text-left mb-6">
-            Ever tasted something like filter coffee but far better? Try
-            <strong> "Urban Brews"</strong>, the first taste of Krissaco Coffee.
-            Sourced from the scenic Western Ghats in Chikkamagaluru, Urban Brews
-            encapsulates the rich aromas of western India. With a blend that’s
-            not too heavy on chicory and not far removed from the everyday
-            coffee that both modern and traditional coffee lovers enjoy, this
-            brew is crafted to offer a balanced and delightful experience.Urban
-            Brews brings you a unique blend of 80:20, striking the ideal balance
-            between coffee and chicory. It delivers the authentic filter coffee
-            taste many love but with an elevated experience that stands out.
-            Each sip carries a depth of flavor, whether you’re starting your day
-            or seeking a moment of relaxation. Urban Brews brings you a unique
-            blend of 80:20, striking the ideal balance between coffee and
-            chicory. It delivers the authentic filter coffee taste many love but
-            with an elevated experience that stands out. Each sip carries a
-            depth of flavor, whether you’re starting your day or seeking a
-            moment of relaxation. Designed for coffee enthusiasts, Urban Brews
-            is the perfect brew for those who crave a rich and aromatic coffee
-            experience. Whether you’re a traditionalist who enjoys the classic
-            filter coffee or a modern coffee lover exploring new flavors, Urban
-            Brews satisfies every palate.At Krissaco, we understand the
-            importance of well-being. That’s why Urban Brews is crafted with
-            your health in mind. The balanced blend ensures you enjoy the
-            perfect cup without compromising on health benefits, making it a
-            brew you can enjoy guilt-free every day.
-          </p>
-        </div>
+        <h1 className="text-2xl font-bold text-left w-full my-4">
+          Urban Brews
+        </h1>
+
+        <p className="text-gray-700 text-justify text-lg mb-6">
+          Ever tasted something like filter coffee but far better? Try
+          <strong> "Urban Brews"</strong>, the first taste of Krissaco Coffee.
+          Sourced from the scenic Western Ghats in Chikkamagaluru, Urban Brews
+          encapsulates the rich aromas of western India. With a blend that’s not
+          too heavy on chicory and not far removed from the everyday coffee that
+          both modern and traditional coffee lovers enjoy, this brew is crafted
+          to offer a balanced and delightful experience.Urban Brews brings you a
+          unique blend of 80:20, striking the ideal balance between coffee and
+          chicory. It delivers the authentic filter coffee taste many love but
+          with an elevated experience that stands out. Each sip carries a depth
+          of flavor, whether you’re starting your day or seeking a moment of
+          relaxation. Urban Brews brings you a unique blend of 80:20, striking
+          the ideal balance between coffee and chicory. It delivers the
+          authentic filter coffee taste many love but with an elevated
+          experience that stands out. Each sip carries a depth of flavor,
+          whether you’re starting your day or seeking a moment of relaxation.
+          Designed for coffee enthusiasts, Urban Brews is the perfect brew for
+          those who crave a rich and aromatic coffee experience. Whether you’re
+          a traditionalist who enjoys the classic filter coffee or a modern
+          coffee lover exploring new flavors, Urban Brews satisfies every
+          palate.At Krissaco, we understand the importance of well-being. That’s
+          why Urban Brews is crafted with your health in mind. The balanced
+          blend ensures you enjoy the perfect cup without compromising on health
+          benefits, making it a brew you can enjoy guilt-free every day.
+        </p>
+
         <div>
-          <div className="md:w-1/1 flex  gap-10">
-            <div className="md:w-1/2 flex  justify-center">
+          <div className="md:w-1/1 flex flex-wrap md:flex-nowrap gap-10">
+            <div className="md:w-1/3 flex justify-center">
               <div className="text-center">
                 <img
                   src="img/perfectBlend.png"
@@ -58,7 +53,7 @@ const Products = () => {
                 </p>
               </div>
             </div>
-            <div className="md:w-1/2 flex  justify-center">
+            <div className="md:w-1/3 flex  justify-center">
               <div className="text-center">
                 <img
                   src="img/slide4.png"
@@ -70,7 +65,7 @@ const Products = () => {
                 </p>
               </div>
             </div>
-            <div className="md:w-1/2 flex justify-center">
+            <div className="md:w-1/3 flex justify-center">
               <div className="text-center">
                 <img
                   src="img/sip.jpg"

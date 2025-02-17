@@ -3,22 +3,22 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 const Carousel = () => {
   const slides = [
     {
-      src: "img/slide2.png",
+      src: "/img/slide2.png",
       alt: "Slide 2",
       text: "When rare coffee is bought to your kitchen",
     },
     {
-      src: "img/slide3.png",
+      src: "/img/slide3.png",
       alt: "Slide 3",
       text: "Enjoy a classic taste for Modern coffee lovers",
     },
     {
-      src: "img/slide1.png",
+      src: "/img/slide1.png",
       alt: "Slide 1",
       text: "Streamline your food processing business the Sleek way",
     },
     {
-      src: "img/slide4.png",
+      src: "/img/slide4.png",
       alt: "Slide 4",
       text: "We bottled something that is more than a filter coffee",
     },

@@ -6,7 +6,7 @@ const Products = () => {
     <div>
       <Navbar />
       <div className="w-full items-center justify-start flex flex-col p-6 md:p-14">
-        <img src="logo192.png" alt="" className="w-44 h-20 object-cover" />
+        <img src="/logo192.png" alt="" className="w-44 h-20 object-cover" />
 
         <h1 className="text-2xl font-bold text-left w-full my-4">
           Urban Brews
@@ -44,7 +44,7 @@ const Products = () => {
             <div className="md:w-1/3 flex justify-center">
               <div className="text-center">
                 <img
-                  src="img/perfectBlend.png"
+                  src="/img/perfectBlend.png"
                   alt="Urban Brews Coffee"
                   className="w-full max-w-xl rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                 />
@@ -56,7 +56,7 @@ const Products = () => {
             <div className="md:w-1/3 flex  justify-center">
               <div className="text-center">
                 <img
-                  src="img/slide4.png"
+                  src="/img/slide4.png"
                   alt="Urban Brews Coffee"
                   className="w-full max-w-xl rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                 />
@@ -68,7 +68,7 @@ const Products = () => {
             <div className="md:w-1/3 flex justify-center">
               <div className="text-center">
                 <img
-                  src="img/sip.jpg"
+                  src="/img/sip.jpg"
                   alt="Urban Brews Coffee"
                   className="w-full max-w-5xl rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                 />

@@ -57,7 +57,7 @@ function App() {
           </div>
           <div className="absolute lg:hidden right-1 bottom-1 opacity-40 block items-center justify-center">
             <img
-              src="logo512.png"
+              src="/logo512.png"
               alt="Krissaco"
               className="w-[256px] h-auto object-cover"
             />
